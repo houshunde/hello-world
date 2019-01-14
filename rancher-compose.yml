@@ -1,5 +1,5 @@
 version: '2'
 services:
   tomcat:
-    scale:1
-    start_on_create:true
+  -scale:1
+  -start_on_create:true
