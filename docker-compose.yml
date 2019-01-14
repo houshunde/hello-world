@@ -4,7 +4,5 @@ services:
    image: 19.19.22.191/ops/tomcat:v8
    stdin_open: true
    tty: true
-   logging:
-     driver: fluentd
    ports:
    - 8080:8080/tcp
