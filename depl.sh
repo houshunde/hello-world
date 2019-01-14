@@ -6,4 +6,4 @@ RANCHER_COMPOSE_FILE=rancher-compose.yml
 DOCKER_COMPOSE_FILE=docker-compose.yml
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/.local/bin:./
 #rancher-compose  --project-name ${RANCHER_STACK}  up -c -d --force-upgrade --pull
-rancher-compose  --project-name ops  up -c -d --force-upgrade --pull
+rancher-compose  --project-name ops  up  --force-upgrade --pull
